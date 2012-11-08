@@ -65,7 +65,7 @@ module Paperclip
       def atompub_client
         @atompub_client ||= begin
                               client = ::Atompub::Client.new(:auth => atompub_auth)
-                              client.get_service(options[:atompub_service])
+                              client.get_service(options[:atompub_service_uri])
                               client
                             end
         

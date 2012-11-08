@@ -18,7 +18,7 @@
     has_attached_file :avatar,
       :storage => :atompub,
       :atompub_config => {
-        :service => 'http://atompub.host/atomsvc',
+        :service_uri => 'http://atompub.host/atomsvc',
         :media_collection_uri => 'http://atompub.host/resources'
       },
       :atompub_credentials => {
