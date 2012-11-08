@@ -1,0 +1,8 @@
+development:
+  atompub_config:
+    :atompub_service: http://development.host/media/atomsvc
+    :atompub_media_collection_uri: http://development.host/media/pictures
+test:
+  atompub_config:
+    :atompub_service: http://test.host/atomsvc
+    :atompub_media_collection_uri: http://test.host/pictures
