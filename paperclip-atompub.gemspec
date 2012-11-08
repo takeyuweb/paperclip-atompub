@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email       = ["uzuki05@takeyu-web.com"]
   s.homepage    = "https://github.com/uzuki05/paperclip-atompub"
   s.summary     = "Adds Atompub Media Resource strage support for the Paperclip"
-  s.description = "TODO: Description of PaperclipAtompub."
+  s.description = "Adds Atompub Media Resource strage support for the Paperclip"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
