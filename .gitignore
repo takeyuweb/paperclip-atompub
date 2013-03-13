@@ -7,3 +7,6 @@ spec/dummy/config/*.yml
 spec/dummy/tmp/
 spec/dummy/.sass-cache
 spec/dummy/public/system/
+*.lock
+*.gem
+
