@@ -9,4 +9,5 @@ spec/dummy/.sass-cache
 spec/dummy/public/system/
 *.lock
 *.gem
+.idea
 
