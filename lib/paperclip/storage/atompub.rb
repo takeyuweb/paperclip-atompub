@@ -33,7 +33,7 @@ module Paperclip
           begin
             log("saving #{path(style)}")
             attachment = atompub_attachment(style)
-            attachment.resource_uri = atompub_client.create_media(options[:atompub_media_collection_uri], file.path, file.content_type)
+            attachment.resource_uri = atompub_client.create_media(options[:atompub_media_collection_uri], file.path, file.content_type, original_filename)
             attachment.content_src = atompub_client.get_entry(attachment.resource_uri).content.src
             attachment.save!
           ensure
