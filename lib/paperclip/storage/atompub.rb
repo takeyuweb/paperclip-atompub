@@ -5,7 +5,7 @@ module Paperclip
     module Atompub
       def self.extended(base)
         base.instance_eval do
-          (@options.delete(:atompub_config) || {}).each do |key, value|
+          (@options[:atompub_config] || {}).each do |key, value|
             @options[:"atompub_#{key}"] = value
           end
         end
